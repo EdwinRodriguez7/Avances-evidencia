@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VENTAMCLAREN</title>
+    <link rel="stylesheet" href="mclaren.css">
+</head>
+<body>
+    <header class="marca4">MARCA: MCLAREN <img width="15" weight="25" src="https://th.bing.com/th/id/OIP.YmzXVfEebZJ2hb9hZpwAaQHaHa?rs=1&pid=ImgDetMain" alt=""></header> <br>
+    <nav>
+        <a href="index.html"><i>INICIO</i></a>
+        <a href="porsche.html"><i>PORSCHE</i></a>
+        <a href="ferrari.html"><i>FERRARI</i></a>
+        <a href="toyota.html"><i>TOYOTA</i></a>
+        <a href="#"><i>MCLAREN</i></a>
+    </nav>
+
+    <main>
+        <p>Otra de nuestra linea mas exclusiva, importados desde Inglaterra, contamos con diferentes precio y modelos</p>
+
+        <table class="tablamclaren" border="3">
+            <tr>
+                <th>MODELO</th>
+                <th>AÑO</th>
+                <th>PRECIO</th>
+                <th>COLOR</th>
+                <th abbr="TIPO DE AUTO">T. DE AUTO</th>
+            </tr>
+            <tr>
+                <td>765 LT</td>
+                <td>2024</td>
+                <td>$11,250,000</td>
+                <td>NARANJA</td>
+                <td>DEPORTIVO</td>
+            </tr>
+            <tr>
+                <td>720S COUPE</td>
+                <td>2018</td>
+                <td>$7,600,000</td>
+                <td>NEGRO</td>
+                <td>DEPORTIVO</td>
+            </tr>
+            <tr>
+                <td>600 LT</td>
+                <td>2019</td>
+                <td>$4,600,000</td>
+                <td>GRIS</td>
+                <td>DEPORTIVO</td>
+            </tr>
+            <tr>
+                <td>SENNA</td>
+                <td>2020</td>
+                <td>$28,120,000</td>
+                <td>AMARILLO</td>
+                <td>DEPORTIVO</td>
+            </tr>
+            <tr>
+                <td>765 LT SPYDER</td>
+                <td>2024</td>
+                <td>$15,200,000</td>
+                <td>BLANCO</td>
+                <td>DEPORTIVO</td>
+            </tr>
+        </table>
+
+    
+        <img class="imagen" width="200" weight="200" src="https://gmgracing.com/wp-content/uploads/2021/06/DSC_8076-2.jpg" alt="">
+    </main>
+
+    <aside>
+        <form style="color: red;" action="CONTACTO" onsubmit="event.preventDefault(); send();">
+            <fieldset class="formmm">
+                <label for="Nombre">Nombre completo:</label>
+                <input type="text" name="Nombre" id="Nombre"><br><br>
+    
+                <label for="Telefono">Teléfono:</label> 
+                <input type="number" name="Telefono" id="Telefono"><br><br>
+    
+                <label for="email">Correo:</label> 
+                <input type="email" name="email" id="email"><br><br>
+    
+                <label for="modelo">Modelo:</label>
+                <select name="modelo" id="modelo">
+                    <option value="" disabled selected>Selecciona un modelo</option>
+                    <option value="1">765 LT</option>
+                    <option value="2">720S COUPE</option>
+                    <option value="3">600LT</option>
+                    <option value="4">765 LT SPYDER</option>
+                    <option value="5">SENNA</option>
+                </select><br><br>
+    
+                <button type="submit">Enviar</button>
+            </fieldset>
+        </form>
+        <div id="mensaje"></div>
+    </aside>
+
+    <footer>
+        <address>
+            <small>DERECHOS RESERVADOS</small> <br>
+            <small>HECHO POR EDWIN HERRERA</small>
+        </address>
+    </footer>
+
+</body>
+</html>
