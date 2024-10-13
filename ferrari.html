@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VENTAFERRARI</title>
+    <link rel="stylesheet" href="ferrari.css">
+    <script src="javaa.js" defer></script>
+</head>
+<body>
+    <header class="marca1">MARCA: FERRARI <img width="10" weight="20" src="https://th.bing.com/th/id/R.fdf73726681950078cf87bef7dacd10d?rik=RfGr%2br9m2S9D3g&pid=ImgRaw&r=0" alt=""></header> <br>
+    <nav>
+        <a href="index.html"><i>INICIO</i></a>
+        <a href="porsche.html"><i>PORSCHE</i></a>
+        <a href="#"><i>FERRARI</i></a>
+        <a href="toyota.html"><i>TOYOTA</i></a>
+        <a href="mclaren.html"><i>MCLAREN</i></a>
+    </nav>
+
+    <main>
+        <p>Si cuentas con mas presupuesto y buscas algo mas <span style="font-size: 20px;">EXCLUSIVO</span> tambien contamos con una de las marcas mas exoticas , desde un ferrari gama de entrada hasta lo mas exclusivo de la marca </p>
+
+        <table class="tablaferrari" border="3">
+            <tr>
+                <th>MODELO</th>
+                <th>AÑO</th>
+                <th>PRECIO</th>
+                <th>COLOR</th>
+                <th abbr="TIPO DE AUTO">T. DE AUTO</th>
+            </tr>
+            <tr>
+                <td>SF90 STRADALE</td>
+                <td>2019</td>
+                <td>$21,250,000</td>
+                <td>ROJO</td>
+                <td>DEPORTIVO</td>
+            </tr>
+            <tr>
+                <td>458 ITALIA</td>
+                <td>2014</td>
+                <td>$6,200,000</td>
+                <td>AMARILLO</td>
+                <td>DEPORTIVO</td>
+            </tr>
+            <tr>
+                <td>PUROSANGUE</td>
+                <td>2022</td>
+                <td>$9,120,000</td>
+                <td>ROJO</td>
+                <td>SUV</td>
+            </tr>
+            <tr>
+                <td>F8 </td>
+                <td>2020</td>
+                <td>$10,420,000</td>
+                <td>AMARILLO</td>
+                <td>DEPORTIVO</td>
+            </tr>
+            <tr>
+                <td>ROMA</td>
+                <td>2021</td>
+                <td>$5,200,000</td>
+                <td>BLANCO</td>
+                <td>DEPORTIVO</td>
+            </tr>
+        </table>
+        
+
+        <iframe class="video1" width="360" height="205" src="https://www.youtube.com/embed/MvVXL-vBQs0?si=ZJDzZLKCgk_fDLMf" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </main>
+
+    <aside></aside>
+        <form style="color: red;" onsubmit="event.preventDefault(); send();">
+            <fieldset class="form3">
+                <label for="Nombre">Nombre completo:</label>
+                <input type="text" name="Nombre" id="Nombre"><br><br>
+    
+                <label for="Telefono">Teléfono:</label>
+                <input type="number" name="Telefono" id="Telefono"><br><br>
+    
+                <label for="email">Correo:</label>
+                <input type="email" name="email" id="email"><br><br>
+    
+                <label for="modelo">Modelo:</label>
+                <select name="modelo" id="modelo">
+                    <option value="" disabled selected>Selecciona un modelo</option>
+                    <option value="F8">F8</option>
+                    <option value="SF90 STRADALE">SF90 STRADALE</option>
+                    <option value="458 ITALIA">458 ITALIA</option>
+                    <option value="PUROSANGUE">PUROSANGUE</option>
+                    <option value="ROMA">ROMA</option>
+                </select><br><br>
+    
+                <button type="submit">Enviar</button>
+            </fieldset>
+        </form>
+
+        <div id="mensaje"></div>
+    </aside>
+
+    <footer>
+        <address>
+            <small>DERECHOS RESERVADOS</small> <br>
+            <small>HECHO POR EDWIN HERRERA</small>
+        </address>
+    </footer>
+    
+</body>
+</html>
