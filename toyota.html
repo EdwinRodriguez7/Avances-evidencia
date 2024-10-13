@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VENTATOYOTA</title>
+    <link rel="stylesheet" href="toyota.css">
+</head>
+<body>
+    <header class="marca3">MARCA: TOYOTA <img width="15" weight="20" src="https://th.bing.com/th/id/R.84a2ffcc555d2f1f1d0a260e67c86b1a?rik=TceOmYgvu%2b03zw&riu=http%3a%2f%2fwww.pngall.com%2fwp-content%2fuploads%2f2016%2f04%2fToyota-Logo.png&ehk=kA4%2fv8Xw0nlFTYQtLSIytFJhbxS%2fKgO%2fSzowb1OCUbA%3d&risl=&pid=ImgRaw&r=0" alt=""></header> <br>
+    <nav>
+        <a href="index.html"><i>INICIO</i></a>
+        <a href="porsche.html"><i>PORSCHE</i></a>
+        <a href="ferrari.html"><i>FERRARI</i></a>
+        <a href="#"><i>TOYOTA</i></a>
+        <a href="mclaren.html"><i>MCLAREN</i></a>
+    </nav>
+
+    <main>
+        <p> Si buscas algo familiar en Toyota podras encontrar vehiculos ahorradores, economicos, y muy comodos para el dia a dia. </p>
+        <table class="tablatoyota" border="3">
+            <tr>
+                <th>MODELO</th>
+                <th>AÑO</th>
+                <th>PRECIO</th>
+                <th>COLOR</th>
+                <th abbr="TIPO DE AUTO">T. DE AUTO</th>
+            </tr>
+            <tr>
+                <td>YARIS</td>
+                <td>2024</td>
+                <td>$320,000</td>
+                <td>ROJO</td>
+                <td>SEDAN</td>
+            </tr>
+            <tr>
+                <td>COROLLA</td>
+                <td>2024</td>
+                <td>$440,000</td>
+                <td>NEGRO</td>
+                <td>SEDAN</td>
+            </tr>
+            <tr>
+                <td>TACOMA</td>
+                <td>2024</td>
+                <td>$905,000</td>
+                <td>GRIS</td>
+                <td>PICK UP</td>
+            </tr>
+            <tr>
+                <td>SIENNA</td>
+                <td>2024</td>
+                <td>$902,000</td>
+                <td>GRIS</td>
+                <td>SUV</td>
+            </tr>
+            <tr>
+                <td>CAMRY</td>
+                <td>2024</td>
+                <td>$615,000</td>
+                <td>BLANCO</td>
+                <td>SEDAN</td>
+            </tr>
+        </table>
+    </main>
+    <br>
+
+    <img class="imagen2" width="250" weight="200" src="https://th.bing.com/th/id/R.e0be1799a79f96e6fd05b7ba4b35bf6a?rik=bY2nHIaxVo0kHw&pid=ImgRaw&r=0" alt="">
+    
+    <aside>
+        <form style="color: red;" action="CONTACTO" onsubmit="event.preventDefault(); send();">
+            <fieldset class="form2">
+                <label for="Nombre">Nombre completo:</label>
+                <input type="text" name="Nombre" id="Nombre"><br><br>
+    
+                <label for="Telefono">Teléfono:</label> 
+                <input type="number" name="Telefono" id="Telefono"><br><br>
+    
+                <label for="email">Correo:</label> 
+                <input type="email" name="email" id="email"><br><br>
+    
+                <label for="modelo">Modelo:</label>
+                <select name="modelo" id="modelo">
+                    <option value="" disabled selected>Selecciona un modelo</option>
+                    <option value="1">YARIS</option>
+                    <option value="2">TACOMA</option>
+                    <option value="3">CAMRY</option>
+                    <option value="4">SIENNA</option>
+                    <option value="5">COROLLA</option>
+                </select><br><br>
+    
+                <button type="submit">Enviar</button>
+            </fieldset>
+        </form>
+
+        <div id="mensaje"></div>
+    </aside>
+    
+
+    <footer>
+        <address>
+            <small>DERECHOS RESERVADOS</small> <br>
+            <small>HECHO POR EDWIN HERRERA</small>
+        </address>
+    </footer>
+    
+</body>
+</html>
